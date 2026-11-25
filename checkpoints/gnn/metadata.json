@@ -1,0 +1,36 @@
+{
+  "best_epoch": 14,
+  "best_validation_MSE": 0.9839944509629311,
+  "family": "GNN",
+  "model_state_sha256": "e2923626383292f54251720e7816e790757fc26a601c664755f1ca9b3dbca373",
+  "model_variant": "Structure-only thesis adaptation. Temperature is not an input.",
+  "preprocessing": {
+    "n_features": 8,
+    "scaler_mean": [
+      243.720940619014,
+      2.177518991833855,
+      52.43419094666801,
+      3.565782841012199,
+      1.1553584030648252,
+      3.023288637967537,
+      0.677286016735558,
+      0.5794474378953467
+    ],
+    "scaler_scale": [
+      107.80938775431429,
+      2.0404800392114004,
+      39.484144367905536,
+      3.4008477427126573,
+      1.3656743049409088,
+      2.165350048655405,
+      0.9766913816567508,
+      0.3676354952623817
+    ]
+  },
+  "sequence_encoding": null,
+  "source_cohort": "SOMAS source dataset, after the fixed coordinate-composition exclusions: 11,676 measurements across 11,541 supplied identity groups; fixed group roles are 9,919 training, 881 validation, and 876 test measurements.",
+  "stop_reason": "maximum_epochs",
+  "target": "log10(mol/L)",
+  "temperature": false,
+  "vocabulary": null
+}
